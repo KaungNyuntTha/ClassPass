@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ClassPass</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0 fw-bolder" href="#">
+                classpass
+            </a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- Right elements -->
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Explore studios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">How it work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Log in</a>
+                    </li>
+                </ul>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary text-capitalize" data-mdb-toggle="modal"
+                    data-mdb-target="#exampleModal">
+                    Get classPass
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">...</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Collapsible wrapper -->
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- home start -->
+    <section id="home" class="p-5">
+        <div class="d-md-flex">
+            <div class="home-text w-50 d-md-flex align-items-center">
+                <div>
+                    <div class="py-2">
+                        <h1>Every <span class="text-primary">class</span> with one fitness <span
+                                class="text-primary">pass</span></h1>
+                        <p class="text-dark fw-bold">Committing is hard-so don't. Work out at any gym, try any workout
+                            and do it all in one app. Try ClassPass for free.
+                        </p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary text-capitalize py-2">Try for free</button>
+                        <button type="button" class="btn btn-light btn-outline-primary text-capitalize ">Find
+                            studios
+                            nearby</button>
+                    </div>
+                    <p class="py-3">Free trials for few members only.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home ends -->
+
+    <!-- studio starts -->
+    <section id="studio">
+        <div class="studio-title d-flex justify-content-center text-black fw-bolder">
+            <h1>Try classes at top studios nearby</h1>
+        </div>
+        <div class="studio-text d-flex justify-content-center ">
+            <p>Cycling, strength, yoga-choose any class, anywhere, with one flexible membership.</p>
+        </div>
+        <div class="row g-4 px-5">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gallery/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" class="card-img-top"
+                        alt="Fissure in Sandstone" />
+                    <div class="card-body">
+                        <h5 class="card-title">1Rebel - St Mary Axe</h5>
+                        <div class="rating d-flex py-1">
+                            <div class="icons text-primary">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="px-2 text-secondary">(5000+ ratings)</p>
+                        </div>
+                        <p class="card-text text-capitalize m-0">Liverpool street</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gallery/sven-mieke-EuwD039Svug-unsplash.jpg" class="card-img-top"
+                        alt="Fissure in Sandstone" />
+                    <div class="card-body">
+                        <h5 class="card-title">BLOVK Shoreditch</h5>
+                        <div class="rating d-flex py-1">
+                            <div class="icons text-primary">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="px-2 text-secondary">(5000+ ratings)</p>
+                        </div>
+                        <p class="card-text text-capitalize m-0">Shoreditch</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gallery/sule-makaroglu-YFmvjO3TP_s-unsplash.jpg" class="card-img-top"
+                        alt="Fissure in Sandstone" />
+                    <div class="card-body">
+                        <h5 class="card-title">Studio Lagree - City</h5>
+                        <div class="rating d-flex py-1">
+                            <div class="icons text-primary">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="px-2 text-secondary">(5000+ ratings)</p>
+                        </div>
+                        <p class="card-text text-capitalize m-0">Barbican</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./gallery/sven-mieke-optBC2FxCfc-unsplash.jpg" class="card-img-top"
+                        alt="Fissure in Sandstone" />
+                    <div class="card-body">
+                        <h5 class="card-title">Another Space-Bank</h5>
+                        <div class="rating d-flex py-1">
+                            <div class="icons text-primary">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="px-2 text-secondary">(5000+ ratings)</p>
+                        </div>
+                        <p class="card-text text-capitalize m-0">Bank</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button d-flex justify-content-center py-4">
+            <button type="button" class="btn btn-light btn-outline-primary fw-bolder">Explore all studios</button>
+        </div>
+    </section>
+    <!-- studio ends -->
+
+    <!-- book section starts -->
+    <section id="book" class="p-5">
+        <div class="d-md-flex p-lg-5">
+            <div class="book-left w-50 p-lg-5">
+                <h1 class="text-black text-center py-4">The easiest way to book fitness class</h1>
+                <p>Book classes anywhere at one monthly fee-no class pass required. Plus, one app, flexible
+                    plans and
+                    dynamic pricing make managing (and maximizing) your schedule easily.
+                </p>
+            </div>
+            <div class="book-right w-50">
+                <img src="./gallery/anastase-maragos-7kEpUPB8vNk-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- book section ends -->
+
+    <!-- save-up section starts -->
+    <section id="save-up" class="p-5">
+        <div class="d-md-flex p-lg-5">
+            <div class="save-up-left w-50">
+                <img src="./gallery/charlesdeluvio-GXNo-OJynTQ-unsplash.jpg" alt="">
+            </div>
+            <div class="save-up-right w-50 p-lg-5">
+                <h1 class="fs-1 text-black text-center py-4">Save up 70%off drops-in rate</h1>
+                <p>Sweat your workout, not their prices. Save on any class(gym. fitness studios and more) when you book
+                    through ClassPass.</p>
+            </div>
+        </div>
+    </section>
+    <!-- save-up section ends -->
+
+    <!-- membership section starts -->
+    <section id="membership" class="px-lg-4 py-lg-2">
+        <div class="membership-title text-dark fw-bolder">
+            <h1>A membership that's more than just fitness classes</h1>
+        </div>
+        <div class="membership-cards d-flex justify-content-center">
+            <div class="d-lg-flex py-2 px-lg-5">
+                <div class="px-3 py-md-2 py-sm-2">
+                    <div class="membership-icon d-flex justify-content-center py-md-4 py-sm-1">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <div class="membership-text">
+                        <p>Use your membership in 2,500 cities worldwide</p>
+                    </div>
+                </div>
+                <div class="px-3 py-md-2 py-sm-2">
+                    <div class="membership-icon d-flex justify-content-center py-md-4 py-sm-1">
+                        <i class="fa-regular fa-hand-pointer"></i>
+                    </div>
+                    <div class="membership-text">
+                        <p>Get class recommendations and access class review</p>
+                    </div>
+                </div>
+                <div class="px-3 py-md-2 py-sm-2">
+                    <div class="membership-icon d-flex justify-content-center py-md-4 py-sm-1">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="membership-text">
+                        <p>Invite your friends to work out and get rewards</p>
+                    </div>
+                </div>
+                <div class="px-3 py-md-2">
+                    <div class="membership-icon d-flex justify-content-center py-md-4 py-sm-1">
+                        <i class="fa-regular fa-circle-check"></i>
+                    </div>
+                    <div class="membership-text">
+                        <p>Stream work out form home-free</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- membership section ends -->
+
+    <!-- guide section starts -->
+    <section id="guide" class="container-fluid">
+        <div class="guide-text py-4 py-sm-2">
+            <div class="guide-title">
+                <h1>Not ready to start today?</h1>
+                <p>Get an inside look at classes available in your neighborhood with our fitness city guide.</p>
+            </div>
+            <div class="row py-md-4 g-3">
+                <div class="col-sm">
+                    <div class="form-outline">
+                        <input type="email" id="form10Example1" class="form-control" />
+                        <label class="form-label" for="form10Example1">Email address</label>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-outline">
+                        <input type="text" id="form10Example2" class="form-control" />
+                        <label class="form-label" for="form10Example2">City name</label>
+                    </div>
+                </div>
+                <div class="col-sm ">
+                    <button type="button" class="btn btn-primary ">Get your guide</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- guide section ends -->
+
+    <!-- location section starts -->
+    <section id="location">
+        <div class="location-text p-4">
+            <div class="location-title">
+                <h1 class="text-dark">Some of our top locations</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+                        <h5 class="py-2">East Coast</h5>
+                        <a href="#" class="d-block text-black-50">Baltimore</a>
+                        <a href="#" class="d-block text-black-50">Boston</a>
+                        <a href="#" class="d-block text-black-50">Newyork</a>
+                        <a href="#" class="d-block text-black-50">Philadeilphia</a>
+                        <a href="#" class="d-block text-black-50">Pittsburgh</a>
+                        <a href="#" class="d-block text-black-50">Washinton D.C</a>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+                        <h5 class="py-2">South East</h5>
+                        <a href="#" class="d-block text-black-50">Atlanta</a>
+                        <a href="#" class="d-block text-black-50">Charlotte</a>
+                        <a href="#" class="d-block text-black-50">Miami</a>
+                        <a href="#" class="d-block text-black-50">Nashville</a>
+                        <a href="#" class="d-block text-black-50">New Orleans</a>
+                        <a href="#" class="d-block text-black-50">Orlando</a>
+                        <a href="#" class="d-block text-black-50">Raleigh</a>
+                        <a href="#" class="d-block text-black-50">Tampa</a>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+                        <h5 class="py-2">Midwest</h5>
+                        <a href="#" class="d-block text-black-50">Chicago</a>
+                        <a href="#" class="d-block text-black-50">Cincinnati</a>
+                        <a href="#" class="d-block text-black-50">Columbus</a>
+                        <a href="#" class="d-block text-black-50">Denva</a>
+                        <a href="#" class="d-block text-black-50">Iadianpoll</a>
+                        <a href="#" class="d-block text-black-50">Kancess City</a>
+                        <a href="#" class="d-block text-black-50">Milwaukee</a>
+                        <a href="#" class="d-block text-black-50">Minneapolis</a>
+                        <a href="#" class="d-block text-black-50">St Louis</a>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+                        <h5 class="py-2">West Coast</h5>
+                        <a href="#" class="d-block text-black-50">Honolulu</a>
+                        <a href="#" class="d-block text-black-50">Inland Empire</a>
+                        <a href="#" class="d-block text-black-50">Los Angeles</a>
+                        <a href="#" class="d-block text-black-50">Missoula</a>
+                        <a href="#" class="d-block text-black-50">Portland</a>
+                        <a href="#" class="d-block text-black-50">Sacramento</a>
+                        <a href="#" class="d-block text-black-50">Salt Lake City</a>
+                        <a href="#" class="d-block text-black-50">San Diego</a>
+                        <a href="#" class="d-block text-black-50">San Francisco</a>
+                        <a href="#" class="d-block text-black-50">Seattle</a>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+                        <h5 class="py-2">South West</h5>
+                        <a href="#" class="d-block text-black-50">Austin</a>
+                        <a href="#" class="d-block text-black-50">Dallas</a>
+                        <a href="#" class="d-block text-black-50">Houston</a>
+                        <a href="#" class="d-block text-black-50">Las Vegas</a>
+                        <a href="#" class="d-block text-black-50">Phoenix</a>
+                        <a href="#" class="d-block text-black-50">San Antonio</a>
+                    </div>
+                    <div class="col-12 col-lg-2 col-md-4 col-sm-6">
+                        <h5 class="py-2">International</h5>
+                        <a href="#" class="d-block text-black-50">Myanmar</a>
+                        <a href="#" class="d-block text-black-50">japan</a>
+                        <a href="#" class="d-block text-black-50">Singapore</a>
+                        <a href="#" class="d-block text-black-50">Thailand</a>
+                        <a href="#" class="d-block text-black-50">Laos</a>
+                        <a href="#" class="d-block text-black-50">Hongkong</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- location section ends -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white p-4">
+        <section class="p-lg-5 pt-sm-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Company</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">About us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Why studio fitness</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Gifts</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Carrers</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Press</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">ClassPass Go</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Corporate Memberships</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Supports</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Help Center</a>
+                        </li>
+                        <li>
+                            <h5>Language</h5>
+                            <select id="language" class="bg-dark text-light border-0">
+                                <option value="us">English(United State)</option>
+                                <option value="uk">English(UK)</option>
+                                <option value="burma">Burmese</option>
+                                <option value="jp">Japan</option>
+                                <option value="korea">Korean</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Partners</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Become a Partner</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Integration API Docs</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">After class blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Community</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Top 10 Lists</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            <div class="d-flex">
+                <div class="left w-50 py-lg-3">
+                    <h5>Enjoy fitnss on the go</h5>
+                    <div class="icon py-3">
+                        <a href="#">
+                            <i class="fa-brands fa-apple text-light px-4 py-1 border border-light rounded-1"></i>
+                        </a>
+                        <a href="#">
+                            <a href="#"><i
+                                    class="fa-brands fa-google-play text-light px-4 py-1 border border-light rounded-1"></i></a>
+                        </a>
+                    </div>
+                </div>
+                <div class="right w-50">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f px-2"></i>
+                        <i class="fa-brands fa-twitter px-2"></i>
+                        <i class="fa-brands fa-instagram px-2"></i>
+                        <i class="fa-brands fa-pinterest-p px-2"></i>
+                        <i class="fa-brands fa-spotify px-2"></i>
+                        <i class="fa-brands fa-tiktok px-2"></i>
+                    </div>
+                    <div class="text">
+                        <a href="#" class="px-2 text-light text-light">Terms of use</a>
+                        <a href="#" class="px-2 text-light text-light">Privicy Policy</a>
+                        <a href="#" class="px-2 text-light text-light">Cookies&ads</a>
+                        <a href="#" class="px-2 text-light text-light">Accessiblity</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/cdnjs.cloudflare.com_ajax_libs_mdb-ui-kit_6.4.0_mdb.min.js"></script>
+</body>
+
+</html>

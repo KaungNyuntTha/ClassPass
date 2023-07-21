@@ -1,0 +1,110 @@
+*{
+    overflow-x: hidden !important;
+}
+.navbar-brand{
+    font-size: 2rem !important;
+}
+.nav-link{
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+.home-text h1{
+    font-size: 4.5rem !important;
+}
+#studio{
+    background: rgba(239, 239, 239, 0.655) !important;
+}
+#studio .studio-title{
+    font-size: 2rem !important;
+    font-weight: 900;
+}
+#studio .studio-text{
+    font-size: 1.3rem !important;
+}
+#book .book-left h1{
+    font-size: 2.5rem !important;
+    font-weight: bolder !important;
+}
+#book .book-left p{
+    font-size: .8rem !important;
+}
+#book .book-right img{
+    width: 100%;
+    object-fit: cover !important;
+}
+#save-up .save-up-left img{
+    width: 100%;
+    object-fit: cover !important;
+}
+#save-up .save-up-right h1 {
+    font-size: 2.5rem !important;
+    font-weight: bolder !important;
+}
+
+#save-up .save-up-right p {
+    font-size: .8rem !important;
+}
+#save-up {
+    background: rgba(239, 239, 239, 0.655) !important;
+}
+.membership-title h1{
+    text-align: center;
+}
+.membership-icon i{
+    font-size: 5rem !important;
+}
+.membership-text{
+    text-align: center !important;
+}
+.guide-title h1,
+.guide-title p{
+    text-align: center !important;
+}
+.guide-text{
+    padding: 0 10rem !important;
+    /* background: pink !important; */
+}
+#guide {
+    background: rgba(239, 239, 239, 0.655) !important;
+}
+.location-title h1{
+    text-align: center !important;
+}
+#location .row a{
+    font-size: 15px !important;
+}
+footer .left a i{
+    font-size: 2rem;
+}
+footer .right .icon i{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************************media queries************************** */
+@media(max-width:650px){
+    .home-text{
+        width: 100% !important;
+    }
+    .book-left,
+    .book-right{
+        width: 100% !important;
+    }
+    .save-up-left,
+    .save-up-right {
+        width: 100% !important;
+    }
+        .guide-text {
+            padding: 1rem !important;
+            /* background: pink !important; */
+        }
+}
